@@ -14,7 +14,7 @@ Jira Service Desk Cloud Developer Info: https://developer.atlassian.com/cloud/ji
 ## 1. Como usar esta API
 
 
-Uso de cotraseñas con Jira REST API basic authentication
+Uso de contraseñas con Jira REST API basic authentication
 
 El uso de contraseñas(password) esta 
 
