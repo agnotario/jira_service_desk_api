@@ -3,6 +3,8 @@
 
 Jira Service Desk Cloud Developer Info: https://developer.atlassian.com/cloud/jira/service-desk/
 
+Iniciado de thisisdevelopment/jira_service_desk_api
+
 
 ## 1. Como usar esta API
 
