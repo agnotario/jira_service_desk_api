@@ -1,0 +1,52 @@
+{
+  "name": "agnotario/jira_service_desk_api",
+  "description": "Unofficial JIRA Service Desk API",
+  "version": "1.0.4",
+  "homepage": "https://developer.atlassian.com/cloud/jira/service-desk/rest/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Per",
+      "email": "michal.per@encja.com",
+      "homepage": "https://github.com/michalper",
+      "role": "PHP Developer"
+    },
+    {
+      "name": "Alonso Alejandro Zúñiga Beltrán",
+      "email": "aazbeltran@outlook.com.com",
+      "homepage": "https://github.com/aazbeltran",
+      "role": "FullStack Developer"
+    }
+    {
+      "name": "Antonio Guerrero Notario",
+      "email": "agnotario@gmail.com",
+      "homepage": "https://github.com/agnotario",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "agnotario@gmail.com"
+  },
+  "keywords": [
+    "jira",
+    "jiraservicedesk",
+    "atlassian"
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+  },
+  "type": "library",
+  "autoload": {
+    "psr-0": {
+      "JiraServiceDesk": "lib/"
+    },
+    "psr-4": {
+      "JiraServiceDesk\\": "JiraServiceDesk/",
+      "JiraServiceDesk\\Model\\": "JiraServiceDesk/Model/",
+      "JiraServiceDesk\\Service\\": "JiraServiceDesk/Service/"
+    }
+  }
+}
