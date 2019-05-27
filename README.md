@@ -48,7 +48,7 @@ Crear una nueva solicitud de servicio:
         $ticket->setRequestDescription($message);
         $ticket->setRequestTypeId($requestTypeId);
        
-        return response()->json($this->jira->request->createCustomerRequest($ticket));
+        return $this->jira->request->createCustomerRequest($ticket);
     }
 
 </pre>
@@ -58,7 +58,7 @@ Añadir un comentario a una solicitud de servicio:
 <pre>
     public function addMessage(string $jiraTicketId, string $message, bool $isPublic):string
     {
-        return response()->json($this->jira->request->createRequestComment($jiraTicketId,$message,$isPublic));
+        return $this->jira->request->createRequestComment($jiraTicketId,$message,$isPublic);
     }
 </pre>
 
@@ -67,7 +67,7 @@ Obtener los datos de una solicitud:
 <pre>
     public function retrieveTicket(string $jiraTicketId):string
     {
-        return response()->json($this->jira->request->getCustomerRequestByIdOrKey($jiraTicketId));
+        return $this->jira->request->getCustomerRequestByIdOrKey($jiraTicketId);
     }
 </pre>
 
